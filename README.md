@@ -1,3 +1,2 @@
-assignment for the odin project
-landing page which i have to try to replicate
-i will add my own content after i replicate it
+landing page that i made using html css(flexbox) , The page was part of an assignment for "the odin project"
+the platform from which im learning full stack development
