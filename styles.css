@@ -8,7 +8,7 @@
 }
 .background-header{
     background-color: #1F2937 ;
-    height: 450px;
+    height: 500px;
 }
 .navbar{
  display: flex;   
@@ -49,18 +49,21 @@
 .hero{
     display: flex;
     padding-left: 200px;
+    gap: 10px;
+    height: 252px;
 }
 .hero-left{
     display: flex;
     flex-direction: column;
     width: 50%;
-    border: solid;
+    
 }
 .hero-right{
     width: 50%;
-    border: solid;
+    background-color: grey;
     margin-right: 71px;
-
+    text-align: center;
+    padding-top: 115px;
 }
 .hero-main-text{
     font-size: 48px;
@@ -68,6 +71,21 @@
     color: #FAF9F8;
 }
 .hero-secondary-text{
-
+    padding-top: 10px;
+    font-size: 18px;
+    color: #e5e7eb;
+    padding-right: 30px;
+    padding-bottom: 17px;
 }
-.sign-up{}
+.signup-button{
+    text-align: center;
+    height: 35px;
+    width:100px;
+    background-color: #3882F6;
+    border: none;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+
