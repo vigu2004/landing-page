@@ -12,6 +12,7 @@
 }
 .navbar{
  display: flex;   
+ padding-bottom: 100px;
 }
 .navbar-right{
     display: flex;
@@ -45,4 +46,28 @@
     color: #e5e7eb;
 
 }
+.hero{
+    display: flex;
+    padding-left: 200px;
+}
+.hero-left{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    border: solid;
+}
+.hero-right{
+    width: 50%;
+    border: solid;
+    margin-right: 71px;
 
+}
+.hero-main-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #FAF9F8;
+}
+.hero-secondary-text{
+
+}
+.sign-up{}
