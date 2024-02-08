@@ -2,19 +2,24 @@
     font-family: Roboto;
     src: url('./Assets/Roboto/Roboto-Regular.ttf');
 }
+@font-face {
+    font-family: Roboto-Bold;
+    src: url('./Assets/Roboto/Roboto-Bold.ttf');
+}
 *{
-    font: 1em Roboto;
     margin: 0%;
 }
 .background-header{
     background-color: #1F2937 ;
-    height: 500px;
+    height: 600px;
 }
 .navbar{
  display: flex;   
  padding-bottom: 100px;
 }
 .navbar-right{
+    padding-top: 10px;
+    font: 1em Roboto;
     display: flex;
     width: 50%;
     gap: 50px;
@@ -25,10 +30,10 @@
     width: 50%;
 }
 .header-logo{
-    font-size: 26px;
-    font-weight: bolder;
+    font: 1em Roboto;
+    font-size: 20px;
     color: #F9FAF8;
-    padding-left: 230px;
+    padding-left: 200px;
 }
 .header-link-1{
     padding-top: 25px;
@@ -56,21 +61,27 @@
     display: flex;
     flex-direction: column;
     width: 50%;
+    margin-right: 100px;
     
 }
 .hero-right{
+    font: 1em Roboto;
+    color: #FAF9F8;
     width: 50%;
+    font-size: 10px;
+    margin-right: 225px;
     background-color: grey;
-    margin-right: 71px;
     text-align: center;
     padding-top: 115px;
 }
 .hero-main-text{
+    font: 1em Roboto-Bold;
     font-size: 48px;
     font-weight: 900;
     color: #FAF9F8;
 }
 .hero-secondary-text{
+    font: 1em Roboto;
     padding-top: 10px;
     font-size: 18px;
     color: #e5e7eb;
@@ -78,6 +89,7 @@
     padding-bottom: 17px;
 }
 .signup-button{
+    font: 1em Roboto;
     text-align: center;
     height: 35px;
     width:100px;
