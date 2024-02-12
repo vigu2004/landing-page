@@ -101,3 +101,105 @@
     font-weight: bolder;
 }
 
+.random-info-area{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    height: 800px;
+    color: bisque;
+}
+.random-info-text{
+    text-align: center;
+    font: 1em Roboto-Bold;
+    font-weight: bolder;
+    color: #1F2937;
+    font-size: 36px;
+    padding-bottom: 50px;
+}
+.photos-with-subtext{
+    display: flex;
+    height: 400px;
+    margin-right:  15%; ;
+    margin-left: 15%;
+    gap: 70px;
+    justify-content: center;
+}
+.a1{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.a2{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.a3{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.a4{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+}
+.photo1{
+    border: 1px solid #3882F6;
+    height: 200px;
+    border-width: 5px;
+    border-radius: 25px;
+    background-color: #e5e7eb;
+}
+.photo2{
+    border: 1px solid #3882F6;
+    height: 200px;
+    border-width: 5px;
+    border-radius: 25px;
+    background-color: #e5e7eb;
+}
+.photo3{
+    border: 1px solid #3882F6;
+    height: 200px;
+    border-width: 5px;
+    border-radius: 25px;
+    background-color: #e5e7eb;
+}
+.photo4{
+    border: 1px solid #3882F6;
+    border-width: 5px;
+    border-radius: 25px;
+    height: 200px;
+    background-color: #e5e7eb;
+}
+.photo1-text{
+    padding-top: 10px;
+    font: Roboto;
+    font-size: 25px;
+    color: #1F2937;
+    text-align: center;
+
+}
+.photo2-text{
+    padding-top: 10px;
+    font: Roboto;
+    font-size: 25px;
+    color: #1F2937;
+    text-align: center;
+
+}
+.photo3-text{
+    padding-top: 10px;
+    font: Roboto;
+    font-size: 25px;
+    color: #1F2937;
+    text-align: center;
+
+}
+.photo4-text{
+    padding-top: 10px;
+    font: Roboto;
+    font-size: 25px;
+    color: #1F2937;
+    text-align: center;
+
+}
