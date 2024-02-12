@@ -104,7 +104,7 @@
 .random-info-area{
     padding-top: 30px;
     padding-bottom: 30px;
-    height: 800px;
+    height: 475px;
     color: bisque;
 }
 .random-info-text{
@@ -201,5 +201,87 @@
     font-size: 25px;
     color: #1F2937;
     text-align: center;
+}
+.testimonial{
+    height: 530px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.testimonial-main-text{
+    font: 1em Roboto;
+    padding-left:20% ;
+    padding-right:20% ;
+    color: #1F2937;
+    font-style:italic;
+    font-size: 36px;
+}
+.testimonial-subtext{
+    padding-top: 10px;
+    font: 1em Roboto-Bold;
+    padding-left:20% ;
+    padding-right:20% ;
+    text-align: right;
+    font-size: 25px;
+    color: #1F2937;
+}
+.call-to-action-area{
+    height: 300px;
+}
+.call-to-action-box{
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    margin-right: 150px;
+    margin-left: 150px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    border-radius: 25px;
+}
+.call-to-action-left{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+.call-to-action-right{
+   
+}
+.call-to-action-sign-up{
+    font: 1em Roboto;
+    text-align: center;
+    height: 50px;
+    width:150px;
+    background-color: #3882F6;
+    border: 3px solid;
+    border-color: #e5e7eb;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    font-weight: bolder;
+}
+.main-text{
+    font: 1em Roboto;
+    font-size: 36px;
+    font-weight: 900;
+    color: #FAF9F8;
 
+}
+.subtext{
+    font: 1em Roboto;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+.footer{
+    height:120px;
+    background-color: #1F2937;
+}
+.copyright{
+    font: 1em Roboto;
+    font-size: 18px;
+    text-align: center;
+    color: #e5e7eb;
+    padding-top: 50px;
 }
